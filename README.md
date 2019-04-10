@@ -1,2 +1,2 @@
 # hacker-news-search
-Hacker News Search app built in React
+Hacker News Search app built in React and GraphQL
