@@ -1,14 +1,13 @@
 .Header {
     display: flex;
     background-color: #FF742B;
-    /* margin-left: 5rem; */
-    /* margin-right: 5rem; */
+    margin-left: 5rem;
+    margin-right: 5rem;
     height: 10vh;
     flex-direction: row;
     align-items: center;
     font-size: calc(10px + 1vmin);
     color: white;
-    /* margin: 5rem; */
 }
 
 .Header > * {
