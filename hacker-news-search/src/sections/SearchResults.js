@@ -16,7 +16,7 @@ export default class SearchResults extends Component {
         return (
             <div className="SearchResults">
                 {
-                    this.state.results.map((result, i) => {
+                    this.state.results.map(result => {
                         return <a key={result.id}>{result.by} - {result.title}</a>
                     })
                 }
