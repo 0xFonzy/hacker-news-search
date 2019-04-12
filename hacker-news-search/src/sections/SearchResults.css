@@ -1,16 +1,15 @@
 .SearchResults {
     display: flex;
+    flex-direction: column;
     background-color: #f6f6ef;
     margin-left: 5rem;
     margin-right: 5rem;
     height: 90vh;
-    flex-direction: row;
     align-items: center;
     font-size: calc(10px + 1vmin);
-    color: white;
+    color: black;
 }
 
 .SearchResults > * {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 15px;
 }
