@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    background-color: #FF742B;
+    /* margin-left: 5rem; */
+    /* margin-right: 5rem; */
+    height: 10vh;
+    flex-direction: row;
+    align-items: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+    /* margin: 5rem; */
+}
+
+.Header > * {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Header > .logo {
+    height: 50px;
+    width: 50px;
+    flex-grow: 0;
+}
+
+.Header > .logo-text {
+    display: flex;
+    flex-grow: 0;
+}
+
+.Header > .search {
+    flex-grow: 1;
+}
